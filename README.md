@@ -2,6 +2,9 @@
 
 Students often face challenges installing PostgreSQL and pgAdmin due to differences in operating systems. This blog explores an **easy and convenient** way to set up both tools using **Docker** — a platform-independent solution that works seamlessly across **Windows, macOS, and Linux**.
 
+## Data Architecture
+<img width="479" height="482" alt="image" src="https://github.com/user-attachments/assets/56748b81-afa9-4ff2-af47-64b9ed9664bd" />
+
 ## Step 1: Pull PostgreSQL Image
 
 Open your terminal and pull the official PostgreSQL Docker image:
@@ -106,7 +109,8 @@ Check number of records:
 ```sql 
 SELECT COUNT(*) AS total_records FROM amazon_sales;
 ```
-
+postgres connection
+<img width="1361" height="375" alt="image" src="https://github.com/user-attachments/assets/52ef7490-1849-40da-b728-857327c54129" />
 
 Exit psql:
 press control + d button keyboard
@@ -144,6 +148,9 @@ Host: postgres-demo
 Port: 5432
 Username: tutorial_user
 password: secure_password
+
+padmin connection:
+<img width="1434" height="706" alt="image" src="https://github.com/user-attachments/assets/79aa218c-7937-495e-a6c7-b149646fe362" />
 
 
 
