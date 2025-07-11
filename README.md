@@ -35,7 +35,7 @@ Breakdown of the command:
 
 -e POSTGRES_PASSWORD=secure_password: Sets the password
 
--p 5433:5432: Maps port 5432 inside the container to 5433 on your host
+-p 5432:5432: Maps port 5432 inside the container to 5432 on your host
 
 -d: Runs the container in the background
 
